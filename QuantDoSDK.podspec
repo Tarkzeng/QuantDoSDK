@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Tark" => "tark_zeng@163.com" }
-# s.source           = { :git => "https://github.com/Tarkzeng/QuantDoSDK.git", :tag => s.version.to_s }
-  s.source           = { :git => "/Users/zengtark/QuantDoSDK", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Tarkzeng/QuantDoSDK.git", :tag => s.version.to_s }
+ # s.source           = { :git => "/Users/zengtark/QuantDoSDK", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
