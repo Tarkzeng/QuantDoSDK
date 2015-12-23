@@ -1,0 +1,6 @@
+framework module QuantDoSDK {
+  umbrella header "QuantDoSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

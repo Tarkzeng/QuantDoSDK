@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'QuantDoSDK_Example', :exclusive => true do
+  pod "QuantDoSDK", :path => "../"
+end
+
+target 'QuantDoSDK_Tests', :exclusive => true do
+  pod "QuantDoSDK", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end

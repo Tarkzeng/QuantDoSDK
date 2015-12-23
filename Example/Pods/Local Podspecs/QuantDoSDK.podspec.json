@@ -1,0 +1,30 @@
+{
+  "name": "QuantDoSDK",
+  "version": "0.1.0",
+  "summary": "A light framework for QuantDo company.",
+  "description": "给公司用的一个网络请求封装framework，主要用来验证怎么用cocoapods来制作有依赖第三方库的framework。",
+  "homepage": "https://github.com/Tarkzeng/QuantDoSDK",
+  "license": "MIT",
+  "authors": {
+    "Tark": "tark_zeng@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Tarkzeng/QuantDoSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "QuantDoSDK": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
